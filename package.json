@@ -1,5 +1,5 @@
 {
-  "name": "toolchain-gccarmnoneeabi-teensy-13",
+  "name": "toolchain-gccarmnoneeabi-teensy",
   "version": "13.3.1",
   "description": "GNU toolchain for Teensy boards based on Arm Cortex-M using GCC v13.3.rel1",
   "keywords": [
@@ -14,11 +14,6 @@
   "homepage": "https://www.pjrc.com/teensy/teensyduino.html",
   "license": "GPL-2.0-or-later",
   "repository": "https://github.com/adob/toolchain-gccarmnoneeabi-teensy",
-  "--dependencies": [{
-    "owner": "platformio",
-    "name": "toolchain-gccarmnoneeabi-teensy",
-    "version": "~1.110301.0"
-  }],
   "scripts": {
     "postinstall": ["./postinstall.sh"]
   },
